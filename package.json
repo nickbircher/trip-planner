@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "nx next:build && echo 'Build complete'",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "nx eslint:lint"
   },
   "dependencies": {
     "next": "16.0.3",
