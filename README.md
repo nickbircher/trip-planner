@@ -21,3 +21,7 @@ These include:
     - Food
     - Integration w google maps
     - Summarisation of menu, reviews
+
+## Usage
+`npm run dev`
+visit http://localhost:3000
